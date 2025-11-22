@@ -5,7 +5,7 @@ To test class generation from command line, go to antlr installation directory c
 - antlr4.bat
 - grun.bat
 
-Then rely on resource found [here|https://github.com/kdefombelle/sqlparser.git]
+Then rely on resource found [here](here)
 - Copy to $ANTLR_HOME grammar files [PlSqlLexer.g4](lexer) and [PlSqlParser.g4](parser)<br>
 - Copy to $ANTLR_HOME Lexer and Parser Java classes from [here](antlr-plsql-java-classes)<br>
 - Run
@@ -28,6 +28,7 @@ SELECT FIELD1 FROM TABLE1;
 
 cf. https://stackoverflow.com/questions/56660700/how-to-use-antlr4-plsql-grammar-java-and-org-antlr-v4-gui-testrig
 
+[here]: <https://github.com/kdefombelle/sqlparser.git>
 [lexer]: <https://github.com/antlr/grammars-v4/blob/master/sql/plsql/PlSqlLexer.g4>
 [parser]: <https://github.com/antlr/grammars-v4/blob/master/sql/plsql/PlSqlParser.g4>
 [antlr-plsql-java-classes]: <https://github.com/antlr/grammars-v4/tree/master/sql/plsql/Java>
